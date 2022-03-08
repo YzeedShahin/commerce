@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-
 import '../home/home_veiw.dart';
 
 class SplashView extends StatefulWidget {
@@ -28,7 +27,6 @@ class _SplashViewState extends State<SplashView> {
       ),
     );
   }
-
 
   @override
   Widget build(BuildContext context) {

@@ -168,3 +168,72 @@ const products = [
     "price": "85",
   }
 ];
+
+const s_product_list = [
+  {
+    "name": "Blazer",
+    "picture": "assets/images/blazer1.jpeg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "Blazer",
+    "picture": "assets/images/blazer2.jpeg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "dress",
+    "picture": "assets/images/dress1.jpeg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "dress2",
+    "picture": "assets/images/dress2.jpeg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "hills",
+    "picture": "assets/images/hills1.jpeg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "hills",
+    "picture": "assets/images/hills2.jpeg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "pants",
+    "picture": "assets/images/pants1.jpg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "pants",
+    "picture": "assets/images/pants2.jpeg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "shoe",
+    "picture": "assets/images/shoe1.jpg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "skirt",
+    "picture": "assets/images/skt1.jpeg",
+    "old_price": "120",
+    "price": "85",
+  },
+  {
+    "name": "skirt",
+    "picture": "assets/images/skt2.jpeg",
+    "old_price": "120",
+    "price": "85",
+  }
+];

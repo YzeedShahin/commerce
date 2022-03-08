@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../product_details/product_details_view.dart';
+
 class Product extends StatelessWidget {
   const Product({
     Key? key,
@@ -20,7 +22,13 @@ class Product extends StatelessWidget {
         tag: name,
         child: Material(
           child: InkWell(
-            onTap: () {},
+            onTap: () => Navigator.of(context).push(MaterialPageRoute(
+                builder: (context) => ProductsDetails(
+                  product_detail_name: name,
+                  product_detail_new_price: new_price,
+                  product_detail_old_price: old_price,
+                  product_detail_picture: picture,
+                ))),
             child: GridTile(
                 footer: Container(
                     color: Colors.white70,
