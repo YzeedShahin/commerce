@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class Category extends StatelessWidget {
   final String title;
-  final String image;
+  final Image pic;
   final Function function;
 
   Category({
      required this.title,
-     required this.image,
+     required this.pic,
     required this.function,
   });
   @override
@@ -18,14 +18,13 @@ class Category extends StatelessWidget {
         child: SizedBox(
           width: 110.0,
           child: ListTile(
-              title: Image.asset(
-                image,
-                width: 100.0,
-                height: 50.0,
+              title: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: pic,
               ),
               subtitle: Container(
                 alignment: Alignment.topCenter,
-                child: Text(title),
+                child: Text(title, style: const TextStyle(color: Colors.black87),),
               )
           ),
         ),

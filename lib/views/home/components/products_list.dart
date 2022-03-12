@@ -4,7 +4,6 @@ import 'package:commerce/data/data.dart';
 
 class ProductsList extends StatelessWidget {
   var product_list = products;
-
   ProductsList({Key? key}) : super(key: key);
 
   @override
@@ -13,7 +12,7 @@ class ProductsList extends StatelessWidget {
       itemCount: product_list.length,
       gridDelegate:
           const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-      physics: BouncingScrollPhysics(),
+      physics: const BouncingScrollPhysics(),
       itemBuilder: (BuildContext context, int index) {
         return Padding(
           padding: const EdgeInsets.all(8.0),

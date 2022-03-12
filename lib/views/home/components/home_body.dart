@@ -13,12 +13,12 @@ class HomeBody extends StatelessWidget {
       children: [
         const ImageSlider(),
         Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.fromLTRB(10,10,10,0),
           child: Container(
               alignment: Alignment.centerLeft,
-              child: const Text('catagories')),
+              child: const Text('Categories')),
         ),
-        const CategoryList(),
+        CategoryList(),
         Padding(
           padding: const EdgeInsets.fromLTRB(10,0,10,10),
           child: Container(
